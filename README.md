@@ -20,7 +20,7 @@ Become a **skilled Full Stack Developer**, ready for the **European and global m
 
 ## 📆 Current Status
 
-**Day 1** of my journey:  
+# **Day 1** of my journey:  
 # ✅ Final Checklist – Day 1
 Today marks the official start of my Full Stack Developer journey. Below is the summary of my progress and environment setup for Day 1:
 ## ⚙️ Environment Setup
@@ -35,8 +35,8 @@ Today marks the official start of my Full Stack Developer journey. Below is the 
 - [x] **Created main repository for the journey**
 - [x] **Initial `README.md` created and versioned**
 
-**Day 2** of my journey:
-* Coming soon
+# **Day 2** of my journey:
+# Coming soon..
 ---
 
 > 🛤️ Follow my journey here and track my progress over time!
