@@ -55,6 +55,24 @@ Today I took my first steps into front-end development. Here's the summary of my
 - [x] Deployed the first webpage using GitHub Pages  
 - [x] Pushed all code and progress to the main journey repository
 
+✅ ##Final Checklist – Day 3**
+
+- 📚 **What I studied:**
+  - Deepened knowledge in **HTML5** and **CSS3**, focusing on:
+    - Best practices for semantic HTML structure.
+    - Proper use of semantic elements like `<header>`, `<main>`, `<section>`, `<article>`, `<footer>`, etc.
+    - CSS positioning techniques and modern layout strategies using **Flexbox** and **Grid**.
+
+- 🎓 **Course(s):**
+  - Continued HTML5 and CSS3 courses from [Alura](https://www.alura.com.br):
+    - Modules on **Positioning**, **Flexbox**, and **Responsive Layout**.
+
+- 🛠️ **Exercise:**
+  - Improved the previously created web page by:
+    - Refactoring the HTML using semantic elements.
+    - Applying **CSS Flexbox** for a basic responsive layout.
+    - Adding initial responsive behavior for different screen sizes.
+
 ---
 
 > 🛤️ Follow my journey here and track my progress over time!
