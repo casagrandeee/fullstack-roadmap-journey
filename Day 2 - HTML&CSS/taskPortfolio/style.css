@@ -1,0 +1,37 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.text-content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    margin-bottom: 20px;
+}
+
+.text-content a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.image-content img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+    
