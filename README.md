@@ -22,6 +22,7 @@ Become a **skilled Full Stack Developer**, ready for the **European and global m
 
 # **Day 1** of my journey:  
 # ✅ Final Checklist – Day 1
+
 Today marks the official start of my Full Stack Developer journey. Below is the summary of my progress and environment setup for Day 1:
 ## ⚙️ Environment Setup
 - [x] **VSCode installed and tested**
@@ -36,7 +37,6 @@ Today marks the official start of my Full Stack Developer journey. Below is the 
 - [x] **Initial `README.md` created and versioned**
 
 ## 🚀 Day 2 of my journey:
-
 ✅ **Final Checklist – Day 2**
 
 Today I took my first steps into front-end development. Here's the summary of my progress and activities for Day 2:
@@ -55,7 +55,8 @@ Today I took my first steps into front-end development. Here's the summary of my
 - [x] Deployed the first webpage using GitHub Pages  
 - [x] Pushed all code and progress to the main journey repository
 
-✅ ##Final Checklist – Day 3**
+## Day 3 of my journey:
+✅ **Final Checklist – Day 3**
 
 - 📚 **What I studied:**
   - Deepened knowledge in **HTML5** and **CSS3**, focusing on:
