@@ -35,8 +35,26 @@ Today marks the official start of my Full Stack Developer journey. Below is the 
 - [x] **Created main repository for the journey**
 - [x] **Initial `README.md` created and versioned**
 
-# **Day 2** of my journey:
-# Coming soon..
+## 🚀 Day 2 of my journey:
+
+✅ **Final Checklist – Day 2**
+
+Today I took my first steps into front-end development. Here's the summary of my progress and activities for Day 2:
+
+### 🧱 Front-End Foundations
+
+- [x] Started learning HTML and CSS:  
+  - Covered development environments, file structure, and essential tags (via Alura – ~8h)
+
+- [x] Hands-on Exercise:  
+  - Built a simple HTML page including a header, paragraph, and list  
+  - Applied basic CSS for colors and fonts to style the page
+
+### 🌐 GitHub & Deployment
+
+- [x] Deployed the first webpage using GitHub Pages  
+- [x] Pushed all code and progress to the main journey repository
+
 ---
 
 > 🛤️ Follow my journey here and track my progress over time!
