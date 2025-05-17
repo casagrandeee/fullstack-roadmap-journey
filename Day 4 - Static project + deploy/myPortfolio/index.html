@@ -31,5 +31,95 @@
                 </div>
             </div>
         </section>
+
+        <section class="projects-section">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="img/first-page.png" alt="Tela de início" />
+                    <img src="img/question-mode.png" alt="Perguntas" />
+                    <img src="img/result.png" alt="Resultado final" />
+                </div>
+
+                <button class="carousel-btn prev">&#10094;</button>
+                <button class="carousel-btn next">&#10095;</button>
+            </div>
+            <div class="project-description">
+                <h1 class="project-title">Univille Expert System</h1>
+                <p class="project-text">
+                    The Univille Expert System is designed to help undecided students choose the most suitable course offered by Univille, based on their preferences and skills. The system operates as a dynamic and informative quiz, providing an interactive experience to guide students in discovering their ideal academic path. At the end of the quiz, a report is generated, highlighting the courses that align best with the student's profile, along with a brief description of what each course entails.
+                </p>
+                <p class="project-tec"><strong>Technologies:</strong> Python - HTML/CSS</p>
+                <a href="https://github.com/casagrandeee/SistemaEspecialistaUniville?tab=readme-ov-file#key-features" target="_blank" class="project-button">View Project</a>
+            </div>
+        </section>
+
+        <section class="projects-section reverse">
+            <div class="project-description">
+                <h1 class="project-title">ScreenMatch</h1>
+                <p class="project-text">
+                    ScreenMatch is a web application developed using Java and Spring Boot. It allows users to browse and manage a collection of TV series, including details about episodes, ratings, and categories.              
+                </p>
+                <p class="project-tec"><strong>Technologies:</strong> JAVA - Spring Boot - HTML/CSS - JavaScript</p>
+                <a href="https://github.com/casagrandeee/FullStack-ScreenMatch" target="_blank" class="project-button">View Project</a>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                <img src="img/screen-serie.png" alt="Tela do Projeto 1" />
+                <img src="img/screen-frase.png" alt="Tela do Projeto 2" />
+                </div>
+                <button class="carousel-btn prev">&#10094;</button>
+                <button class="carousel-btn next">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                <img src="img/fullstack1.png" alt="Tela do Projeto 3" />
+                <img src="img/fullstack2.png" alt="Tela do Projeto 3" />
+                <img src="img/fullstack3.png" alt="Tela do Projeto 3" />
+                </div>
+                    <button class="carousel-btn prev">&#10094;</button>
+                    <button class="carousel-btn next">&#10095;</button>
+                </div>
+            </div>
+
+            <div class="project-description">
+                <h1 class="project-title">Fullstack-Roadmap</h1>
+                <p class="project-text">
+                This project is a compilation of challenges I set for myself — 10,000 hours of development and study. In this repository, I’ll be updating every day that I follow this plan!
+                Come check out my progress and explore my latest projects!
+                </p>
+                <p class="project-tec"><strong>Technologies:</strong> BackEnd/FrontEnd etc..</p>
+                <a href="https://github.com/casagrandeee/fullstack-roadmap" target="_blank" class="project-button">View Project</a>
+            </div>
+        </section>
+
+
+        <script>
+            document.querySelectorAll('.carousel-container').forEach((carousel) => {
+            const slide = carousel.querySelector('.carousel-slide');
+            const images = slide.querySelectorAll('img');
+            const prevBtn = carousel.querySelector('.carousel-btn.prev');
+            const nextBtn = carousel.querySelector('.carousel-btn.next');
+            let counter = 0;
+
+            const updateSlide = () => {
+            slide.style.transform = `translateX(${-counter * 600}px)`;
+            };
+
+            nextBtn.addEventListener('click', () => {
+            counter = (counter + 1) % images.length;
+            updateSlide();
+            });
+
+            prevBtn.addEventListener('click', () => {
+            counter = (counter - 1 + images.length) % images.length;
+            updateSlide();
+            });
+            });
+        </script>
+
     </body>
 </html>

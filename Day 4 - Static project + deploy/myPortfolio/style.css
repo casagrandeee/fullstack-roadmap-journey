@@ -104,3 +104,108 @@ body {
     transform: scale(1.1);
     filter: brightness(1.6);
 }
+
+.projects-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5em;
+  padding: 4em;
+  background-color: var(--background-color);
+  color: var(--principal-white);
+  flex-wrap: wrap;
+}
+
+.carousel-container {
+  position: relative;
+  width: 600px;
+  height: 370px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  flex-shrink: 0;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-slide img {
+  width: 600px;
+  height: 370px;
+  object-fit: cover;
+  background-color: #00030c;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 0.6em;
+  cursor: pointer;
+  font-size: 1.2em;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.project-description {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  align-items: flex-end;
+  gap: 1em;
+}
+
+.project-button {
+  background-color: var(--blue-buttom);
+  color: var(--principal-white);
+  padding: 1em 2em;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+.project-text{
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 2em;
+}
+
+.project-tec{
+    font-size: 1.2em;
+    color: var(--principal-white);
+    margin-bottom: 1em;
+}
+
+.projects-section.reverse {
+  flex-direction: row-reverse;
+}
+
+  
