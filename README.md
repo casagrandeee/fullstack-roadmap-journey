@@ -103,7 +103,7 @@ Today I took my first steps into front-end development. Here's the summary of my
 
 - Developed a personal portfolio landing page based on the course’s Figma layout:
   - Built with semantic HTML and modern CSS practices.
-  - Hosted via **[GitHub Pagees]([https://vercel.com](https://casagrandeee.github.io/Portfolio-2025/))**.
+  - Hosted via **[GitHub Pages] ([https://vercel.com](https://casagrandeee.github.io/Portfolio-2025/))**.
   - Source code available in a **public GitHub repository**, including:
     - Clear folder structure
     - `README.md` explaining the project
