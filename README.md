@@ -74,6 +74,41 @@ Today I took my first steps into front-end development. Here's the summary of my
     - Applying **CSS Flexbox** for a basic responsive layout.
     - Adding initial responsive behavior for different screen sizes.
 
+
+## Day 4 of my journey:
+
+✅ **Final Checklist – Day 4**
+
+---
+
+### 📄 What I studied:
+
+- Applied previously acquired front-end knowledge to build and deploy a complete static site.
+  - Reinforced understanding of practical HTML/CSS.
+  - Learned how to convert a layout from Figma into structured code.
+  - Explored deployment tools and best practices for publishing static websites.
+
+---
+
+### 🎓 Course(s):
+
+- Completed the **HTML e CSS: praticando HTML/CSS** course from [Alura](https://www.alura.com.br):
+  - Step-by-step guidance to build a portfolio site from scratch.
+  - Taught how to structure code for readability and scalability.
+  - Covered deployment to hosting platforms like GitHub Pages and Vercel.
+
+---
+
+### 🛠️ Exercise:
+
+- Developed a personal portfolio landing page based on the course’s Figma layout:
+  - Built with semantic HTML and modern CSS practices.
+  - Hosted via **[GitHub Pages] ([https://vercel.com](https://casagrandeee.github.io/Portfolio-2025/))**.
+  - Source code available in a **public GitHub repository**, including:
+    - Clear folder structure
+    - `README.md` explaining the project
+    - Live preview link
+
 ---
 
 > 🛤️ Follow my journey here and track my progress over time!
