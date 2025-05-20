@@ -149,7 +149,46 @@ Today I took my first steps into front-end development. Here's the summary of my
     feat: add JS button to show message
     ```
 
+# Day 6 of my journey
+
+✅ **Final Checklist – Day 6**
+
 ---
+
+## 🧾 What I studied
+
+- Consolidated programming logic concepts using JavaScript.
+  - Reinforced the fundamentals of algorithms and flow control.
+  - Practiced conditional structures, loops, and variable manipulation.
+  - Gained more confidence to solve basic logical challenges in JS.
+
+---
+
+## 📚 Course(s)
+
+- Completed the **Lógica de programação: mergulhe em programação com JavaScript** course from [Alura](https://www.alura.com.br/):
+  - Introduced essential programming logic principles.
+  - Covered the use of `if/else`, `for`, `while`, and functions in practical scenarios.
+  - Provided exercises and explanations to strengthen problem-solving skills.
+
+---
+
+## 🛠️ Exercise
+
+- Solved 2–3 basic logic challenges using JavaScript:
+  - Example challenges:
+    - Calculate even numbers within a range.
+    - Sum the elements of an array.
+    - (Other challenges may be added as needed.)
+
+- Versioned all solutions in a dedicated folder in the GitHub repository:
+  - Created a folder named `exercicios`.
+  - Each file named clearly (e.g., `pares.js`, `soma-array.js`).
+  - Used descriptive commit messages like:
+    ```
+    feat: add logic exercise to calculate even numbers
+    feat: implement array sum function
+    ```
 
 ---
 
