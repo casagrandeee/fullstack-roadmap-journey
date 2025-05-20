@@ -20,8 +20,8 @@ Become a **skilled Full Stack Developer**, ready for the **European and global m
 
 ## 📆 Current Status
 
-# **Day 1** of my journey:  
-# ✅ Final Checklist – Day 1
+## Day 1** of my journey:  
+✅ **Final Checklist – Day 1**
 
 Today marks the official start of my Full Stack Developer journey. Below is the summary of my progress and environment setup for Day 1:
 ## ⚙️ Environment Setup
@@ -35,6 +35,7 @@ Today marks the official start of my Full Stack Developer journey. Below is the 
 - [x] **Customized GitHub profile**
 - [x] **Created main repository for the journey**
 - [x] **Initial `README.md` created and versioned**
+
 
 ## 🚀 Day 2 of my journey:
 ✅ **Final Checklist – Day 2**
@@ -54,6 +55,7 @@ Today I took my first steps into front-end development. Here's the summary of my
 
 - [x] Deployed the first webpage using GitHub Pages  
 - [x] Pushed all code and progress to the main journey repository
+
 
 ## Day 3 of my journey:
 ✅ **Final Checklist – Day 3**
@@ -108,6 +110,85 @@ Today I took my first steps into front-end development. Here's the summary of my
     - Clear folder structure
     - `README.md` explaining the project
     - Live preview link
+    
+
+# Day 5 of my journey
+
+✅ **Final Checklist – Day 5**
+
+---
+
+## 🧾 What I studied
+
+- Introduced interactivity to static pages using JavaScript.
+  - Learned fundamental JavaScript concepts for the web.
+  - Understood how to manipulate the DOM to make pages dynamic.
+  - Practiced writing scripts to enhance user interaction.
+
+---
+
+## 📚 Course(s)
+
+- Completed the **JavaScript para Web: crie páginas dinâmicas** course from [Alura](https://www.alura.com.br/):
+  - Step-by-step introduction to JavaScript for front-end development.
+  - Covered how to use JS to dynamically change elements on the page.
+  - Explained how JavaScript integrates with HTML and CSS.
+
+---
+
+## 🛠️ Exercise
+
+- Enhanced the personal portfolio landing page with JavaScript:
+  - Added a script to make a page element dynamic.
+    - Example: A button that displays a message or changes content when clicked.
+  - Used semantic and clean JavaScript practices.
+
+- Versioned all changes clearly in the GitHub repository:
+  - Used meaningful commit messages, such as:
+    ```
+    feat: add JS button to show message
+    ```
+
+# Day 6 of my journey
+
+✅ **Final Checklist – Day 6**
+
+---
+
+## 🧾 What I studied
+
+- Consolidated programming logic concepts using JavaScript.
+  - Reinforced the fundamentals of algorithms and flow control.
+  - Practiced conditional structures, loops, and variable manipulation.
+  - Gained more confidence to solve basic logical challenges in JS.
+
+---
+
+## 📚 Course(s)
+
+- Completed the **Lógica de programação: mergulhe em programação com JavaScript** course from [Alura](https://www.alura.com.br/):
+  - Introduced essential programming logic principles.
+  - Covered the use of `if/else`, `for`, `while`, and functions in practical scenarios.
+  - Provided exercises and explanations to strengthen problem-solving skills.
+
+---
+
+## 🛠️ Exercise
+
+- Solved 2–3 basic logic challenges using JavaScript:
+  - Example challenges:
+    - Calculate even numbers within a range.
+    - Sum the elements of an array.
+    - (Other challenges may be added as needed.)
+
+- Versioned all solutions in a dedicated folder in the GitHub repository:
+  - Created a folder named `exercicios`.
+  - Each file named clearly (e.g., `pares.js`, `soma-array.js`).
+  - Used descriptive commit messages like:
+    ```
+    feat: add logic exercise to calculate even numbers
+    feat: implement array sum function
+    ```
 
 ---
 
