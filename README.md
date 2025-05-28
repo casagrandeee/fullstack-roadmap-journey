@@ -189,7 +189,56 @@ Today I took my first steps into front-end development. Here's the summary of my
     feat: add logic exercise to calculate even numbers
     feat: implement array sum function
     ```
+ 
+ # Day 7 of my journey
 
+✅ **Final Checklist – Day 7**
+
+---
+
+## 📖 What I studied
+
+- Deepened my knowledge of DOM manipulation and event handling using JavaScript.
+  - Learned how the DOM represents HTML as objects in a tree-like structure.
+  - Practiced selecting and manipulating HTML elements dynamically via JavaScript.
+  - Understood how to listen for and respond to user events like `click`, `submit`, and `input`.
+  - Gained confidence in writing interactive and responsive web interfaces.
+
+---
+
+## 📚 Course(s)
+
+- Completed the following DOM-focused JavaScript courses from Alura:
+  - **JavaScript na Web: manipule o DOM com JavaScript**
+    - Focused on practical DOM element manipulation and event binding.
+    - Built dynamic UI behaviors such as form handling and dynamic list updates.
+  - **JavaScript: manipulando elementos no DOM**
+    - Reinforced DOM concepts including navigation, creation, and deletion of elements.
+    - Practiced traversing the DOM tree and understanding node relationships.
+
+---
+
+## 🛠️ Exercise
+
+- Implemented two interactive front-end features using JavaScript:
+
+  ### ✔️ Form Validation
+  - Built a simple contact form with name and email fields.
+  - Implemented validation to ensure both fields are filled before submission.
+  - Displayed dynamic feedback messages to the user based on input state.
+
+  ### ✔️ Dynamic List (To-Do Style)
+  - Created an input that allows adding new items to a list.
+  - Implemented click-to-remove functionality for each item dynamically added.
+
+- Versioned all solutions in a dedicated folder in the GitHub repository:
+  - Created a folder named `dom-events-exercises`.
+  - Included files: `formulario.html`, `lista.html` and their corresponding JS scripts.
+  - Used descriptive commit messages such as:
+    ```bash
+    feat: add contact form with JS validation
+    feat: implement dynamic list with add/remove functionality
+    ```
 ---
 
 > 🛤️ Follow my journey here and track my progress over time!
