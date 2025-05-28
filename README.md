@@ -241,4 +241,36 @@ Today I took my first steps into front-end development. Here's the summary of my
     ```
 ---
 
+# Day 8 – Simple Front-end Project: Consolidating HTML/CSS/JS
+
+✅ **Final Checklist – Day 8**
+
+## Overview
+
+On this day, I focused on improving my front-end development skills by evolving my project. The goal was to enhance the design, functionality, and responsiveness of the project while ensuring it worked seamlessly after deployment.
+
+---
+
+## Activities Completed
+
+1. **Enhanced CSS Design**:  
+   - Improved the visual design of the project.  
+   - Made the layout responsive for mobile devices using media queries and modern CSS techniques.
+
+2. **Refined JavaScript Scripts**:  
+   - Optimized and cleaned up the JavaScript code.  
+   - Added interactivity and improved existing functionality.
+
+3. **Added a "Projects" Section**:  
+   - Created a new section on my website to showcase projects.  
+   - Used a JavaScript array of objects to simulate project data.  
+   - Dynamically rendered the project data on the page using JavaScript.
+
+4. **Tested Deployment**:  
+   - Verified that the site continued to function correctly after deployment.  
+   - Successfully tested the site on **GitHub Pages** and **Vercel**.
+
+---
+
+
 > 🛤️ Follow my journey here and track my progress over time!
