@@ -269,6 +269,36 @@ On this day, I focused on improving my front-end development skills by evolving 
 4. **Tested Deployment**:  
    - Verified that the site continued to function correctly after deployment.  
    - Successfully tested the site on **GitHub Pages** and **Vercel**.
+  
+   # Day 9 – Back-end Fundamentals: Node.js Basics
+
+✅ **Final Checklist – Day 9**
+
+---
+
+### Overview
+
+On this day, I began my journey into back-end development by exploring the fundamentals of **Node.js**.  
+The main objective was to understand how server-side code works, execute scripts using Node, and manipulate files and inputs on the backend.
+
+---
+
+### Activities Completed
+
+1. **Set Up Node.js Environment:**
+   - Installed the latest **LTS version of Node.js** and verified the installation.
+   - Created and executed a basic `Hello World` script using Node to ensure the environment was working properly.
+
+2. **Created Basic Node Scripts:**
+   - Wrote a script to **read and parse a JSON file** and display its contents on the console.
+   - Developed a script that **receives a command-line parameter** and outputs a personalized message dynamically.
+
+3. **Practiced File and Input Handling:**
+   - Used `fs.readFile()` to asynchronously read JSON data from the file system.
+   - Applied `process.argv[]` to handle input parameters via the command line.
+
+4. **Version Control & Remote Hosting:**
+   - Initialized a Git repository for the back-end test project.
 
 ---
 
