@@ -1,32 +1,20 @@
 import express from 'express';
+import connectDB from "./config/dbConnect.js";
+import routes from "./routes/index.js";
+
+const db = await connectDB();
+
+db.on("error", (error) => {
+    console.error("Database connection error:", error);
+});
+
+db.once("open", () => {
+    console.log("Database connected successfully!");
+})
 
 const app = express();
-app.use(express.json());
 
-const books = [
-    {
-        id: 1,
-        title: "To Kill a Mockingbird"
-    },
-    {
-        id: 2,
-        title: "Capitalist, Socialist, and Democrat"
-    }
-]
-
-function findBooks(id) {
-    return books.findIndex(books => {
-        return books.id === Number(id);
-    });
-}
-
-app.get("/", (req, res) => {
-    res.status(200).send("Welcome to the home page!");
-});
-
-app.get("/books", (req, res) => {
-    res.status(200).json(books);
-});
+routes(app);
 
 app.post("/books", (req, res) => {
     books.push(req.body);
@@ -51,3 +39,4 @@ app.delete("/books/:id", (req, res) => {
 });
 
 export default app;
+
