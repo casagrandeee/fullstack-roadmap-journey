@@ -300,6 +300,28 @@ The main objective was to understand how server-side code works, execute scripts
 4. **Version Control & Remote Hosting:**
    - Initialized a Git repository for the back-end test project.
 
+
+
+# 📅 Day 10 of my journey – Building a REST API with Node.js + Express
+
+✅ Final Checklist – Day 10 Complete
+
+---
+
+## 📖 What I Studied
+
+- Learned how to create a basic RESTful API using **Node.js** and **Express**.
+- Practiced defining routes, handling requests and responses.
+- Explored tools for API testing like **Postman** and `curl`.
+- Understood modular structure and middleware basics in Express.
+
+## 📚 Course(s)
+
+- Completed: **Node.js: criando uma API Rest com Express e MongoDB** (Alura – ~8h)
+  - Set up an Express server from scratch.
+  - Created and tested routes with different HTTP methods.
+  - Used `nodemon` for development convenience.
+  - Practiced clean code and file separation in small-scale APIs.
 ---
 
 
