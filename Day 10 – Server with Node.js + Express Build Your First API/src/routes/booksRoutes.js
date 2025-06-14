@@ -11,4 +11,6 @@ routes.post("/books", bookController.registerBook);
 
 routes.put("/books/:id", bookController.updateBook);
 
+routes.delete("/books/:id", bookController.deleteBook);
+
 export default routes;

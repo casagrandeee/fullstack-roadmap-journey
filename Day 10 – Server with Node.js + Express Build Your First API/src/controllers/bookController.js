@@ -39,6 +39,16 @@ class BookController {
             res.status(500).json({message: `${error.message} - Updated failed.`});
         }
     };
+
+    static async deleteBook(req, res) {
+        try {
+            const id = req.params.id;
+            await book.findByIdAndDelete(id);
+            res.status(200).json({message: "Book deleted successfully!"});
+        } catch (error) {
+            res.status(500).json({message: `${error.message} - Delete failed.`});
+        }
+    };
 }
 
 export default BookController;
