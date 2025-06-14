@@ -1,4 +1,5 @@
 import book from "../models/Book.js";
+import {author} from "../models/Author.js";
 
 class BookController {
 
@@ -22,8 +23,11 @@ class BookController {
     };
 
     static async registerBook(req, res) {
+        const newBook = req.body;
         try {
-            const newBook = await book.create(req.body);
+            const authorFinded = await author.findById(newBook.author);
+            const bookCompleted = { ...newBook, author: { ...authorFinded._doc }};
+            const bookCreated = await book.create(bookCompleted);
             res.status(201).json({message: "Book registered successfully!", book: newBook});
         } catch (error) {
             res.status(500).json({message: `${error.message} - Failed to register book.`});
@@ -49,6 +53,16 @@ class BookController {
             res.status(500).json({message: `${error.message} - Delete failed.`});
         }
     };
+
+    static async listBooksByPublisher(req, res) {
+        const publisher = req.query.publisher;
+        try {
+            const booksByPublisher = await book.find({ publisher: publisher });
+            res.status(200).json(booksByPublisher);
+        } catch (error) {
+            res.status(500).json({message: `${error.message} - Failed to retrieve books by publisher.`});
+        }
+    }
 }
 
 export default BookController;

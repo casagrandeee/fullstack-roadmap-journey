@@ -16,7 +16,7 @@ const app = express();
 
 routes(app);
 
-app.delete("/books/:id", (req, res) => {
+app.delete("/authors/:id", (req, res) => {
     const index = findBooks(req.params.id);
     books.splice(index, 1);
     res.status(200).send("Book deleted successfully!");
