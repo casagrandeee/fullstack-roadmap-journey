@@ -324,5 +324,21 @@ The main objective was to understand how server-side code works, execute scripts
   - Practiced clean code and file separation in small-scale APIs.
 ---
 
+# 📅 Day 11 of my journey – Front-end + Back-end Integration
+
+✅ Final Checklist – Day 11 Complete
+
+---
+
+## 🔧 What I Did
+
+- Integrated my static portfolio (HTML/CSS/JS) with a Node.js + Express back-end.
+- Replaced hardcoded project `<li>` elements with dynamic data from an API.
+- Enabled CORS to allow communication between ports (`3000` → `5500`).
+- Fetched data using `fetch()` and rendered it into the DOM.
+- Verified full integration using Live Server and local API.
+
+---
+
 
 > 🛤️ Follow my journey here and track my progress over time!
