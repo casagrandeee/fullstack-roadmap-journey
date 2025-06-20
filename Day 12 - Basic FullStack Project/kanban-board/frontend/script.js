@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3010/tasks';
+const API_URL = 'https://kanban-api-day14deploy-production.up.railway.app/tasks';
 
 const form = document.getElementById('task-form');
 const titleInput = document.getElementById('title');
