@@ -16,11 +16,5 @@ const app = express();
 
 routes(app);
 
-app.delete("/authors/:id", (req, res) => {
-    const index = findBooks(req.params.id);
-    books.splice(index, 1);
-    res.status(200).send("Book deleted successfully!");
-});
-
 export default app;
 

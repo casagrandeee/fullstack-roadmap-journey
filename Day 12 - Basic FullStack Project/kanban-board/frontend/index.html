@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Board - Kanban</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <header>
+        <h1>🗂️ Task Management Board – Kanban</h1>
+    </header>
+
+    <section class="form-section">
+        <h2>➕ Add New Task</h2>
+        <form id="task-form">
+            <input type="text" id="title" placeholder="Task title" required />
+            <input type="text" id="category" placeholder="Category" required />
+            <select id="status" required>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+            </select>
+            <button type="submit">Add Task</button>
+        </form>
+    </section>
+
+    <section class="board">
+        <div class="column">
+            <h2>🟡 Pending</h2>
+            <ul id="pending-tasks" class="task-list"></ul>
+        </div>
+
+        <div class="column">
+            <h2>✅ Completed</h2>
+            <ul id="completed-tasks" class="task-list"></ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

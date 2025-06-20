@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1{
+    font-size: 2em;
+    color: #222;
+}
+
+.form-section{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-section h2{
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+form input,
+form select{
+    flex: 1 1 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form button{
+    flex: 1 1 100%;
+    padding: 10px;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+form button:hover {
+    background-color: #2563eb;
+}
+
+/* Board Layout */
+.board {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1 1 300px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.column h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Task Items */
+
+.task-list {
+    list-style-type: none;
+}
+
+.task-list li {
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.task-list li:hover {
+    transform: scale(1.02);
+}
+
+.actions {
+    margin-top: 6px;
+}
