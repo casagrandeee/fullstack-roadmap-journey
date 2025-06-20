@@ -387,6 +387,41 @@ The main objective was to understand how server-side code works, execute scripts
   - Headings, emojis, code blocks, tables, and section dividers
   - Commit-friendly and beginner-friendly format
 ---
-
+# 📅 Day 14 of my journey – Back-end Deploy (Node + Express)
+✅ Final Checklist – Day 14
+---
+## 🌐 What I did
+- Prepared my Node.js + Express API for production:
+  - Installed and configured `dotenv` for dynamic port handling.
+  - Enabled `cors` to allow external front-end connections.
+  - Cleaned up and structured the backend repo for deploy.
+- ✅ Created a separate repository for the backend-only API:
+  - `kanban-api` deployed to **Railway** (free tier)
+  - Used Railway’s GitHub integration to automate deployment
+- 🔁 Updated the front-end:
+  - Replaced the local `API_URL` in `script.js` with the live Railway URL
+  - Verified that the production API responds with live task data
+  - Fully tested via Live Server, including:
+    - `GET /tasks` rendering
+    - `POST`, `DELETE`, `PATCH` working in real-time
+---
+## ☁️ Deployment Highlights
+- Platform: **Railway.app**
+- Public API URL:  
+  ```bash
+  https://kanban-api-day14deploy-production.up.railway.app/tasks
+  ```
+---
+## 🧪 Exercise
+- ✅ Verified API responds with live data
+- ✅ Created task from front-end and confirmed it appeared in JSON
+- ✅ Resolved any CORS issues and ensured environment variables are used
+- ✅ Versioned final config:
+  - `.env.example`
+  - Updated `script.js`
+  - `server.js` using `process.env.PORT`
+---
+> 🌍 My project is now live and functional, one step closer to real-world software deployment!
+---
 
 > 🛤️ Follow my journey here and track my progress over time!
