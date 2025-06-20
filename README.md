@@ -366,6 +366,27 @@ The main objective was to understand how server-side code works, execute scripts
 - ✅ Postman + Browser (Backend)
 - ✅ Console debugging (via DevTools)
 ---
+# 📅 Day 13 of my journey – Project Documentation and README
+✅ Final Checklist – Day 13
+---
+## 📖 What I studied
+- Learned how to write professional documentation for a full stack project.
+- Understood the importance of presenting a project clearly for recruiters and collaborators.
+- Practiced organizing technical progress into readable, structured documentation.
+---
+## 📝 Documentation Tasks
+- Created a detailed `README.md` for the **Kanban Task Board** project:
+  - 🧩 Project summary and context
+  - 🔧 Features and technologies used
+  - 🛠 Installation and run instructions (backend and frontend)
+  - 🖥 Screenshot placeholder for UI preview
+  - 📌 Section for future improvements
+  - 🗂 Clear file structure
+
+- Used markdown best practices:
+  - Headings, emojis, code blocks, tables, and section dividers
+  - Commit-friendly and beginner-friendly format
+---
 
 
 > 🛤️ Follow my journey here and track my progress over time!
