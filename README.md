@@ -314,22 +314,17 @@ The main objective was to understand how server-side code works, execute scripts
 - Practiced defining routes, handling requests and responses.
 - Explored tools for API testing like **Postman** and `curl`.
 - Understood modular structure and middleware basics in Express.
-
 ## 📚 Course(s)
-
 - Completed: **Node.js: criando uma API Rest com Express e MongoDB** (Alura – ~8h)
   - Set up an Express server from scratch.
   - Created and tested routes with different HTTP methods.
   - Used `nodemon` for development convenience.
   - Practiced clean code and file separation in small-scale APIs.
 ---
-
 # 📅 Day 11 of my journey – Front-end + Back-end Integration
 
 ✅ Final Checklist – Day 11 Complete
-
 ---
-
 ## 🔧 What I Did
 
 - Integrated my static portfolio (HTML/CSS/JS) with a Node.js + Express back-end.
@@ -338,6 +333,38 @@ The main objective was to understand how server-side code works, execute scripts
 - Fetched data using `fetch()` and rendered it into the DOM.
 - Verified full integration using Live Server and local API.
 
+---
+# 📅 Day 12 of my journey:
+✅ Final Checklist – Day 12
+---
+
+## 📘 What I studied:
+- Practiced full stack integration with HTML, CSS, JavaScript, and Node.js.
+- Implemented full CRUD operations via a custom REST API using Express.
+- Learned how to handle task creation, completion, and deletion using API routes.
+- Improved DOM manipulation and dynamic rendering using JavaScript.
+---
+## 📚 Course(s):
+- Hands-on project based on my 10,000-hour roadmap.
+- Built a **Kanban-style Task Board** with:
+  - `GET`, `POST`, `PATCH`, `DELETE` routes
+  - Dynamic UI updates based on API responses
+  - In-memory data handling
+---
+## 🧪 Exercise:
+- Created a full stack task board with:
+  - ✅ Form to create new tasks (title, category, status)
+  - 🟡 Column for **Pending Tasks**
+  - ✅ Column for **Completed Tasks**
+  - ✔ Button to **mark as done**
+  - 🗑 Button to **delete a task**
+- Integrated front and back using `fetch()`
+- Styled the layout using Flexbox and modern design
+---
+🖥 Successfully tested using:
+- ✅ Live Server (Frontend)
+- ✅ Postman + Browser (Backend)
+- ✅ Console debugging (via DevTools)
 ---
 
 
