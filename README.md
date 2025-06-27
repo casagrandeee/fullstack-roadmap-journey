@@ -421,7 +421,26 @@ The main objective was to understand how server-side code works, execute scripts
   - Updated `script.js`
   - `server.js` using `process.env.PORT`
 ---
-> 🌍 My project is now live and functional, one step closer to real-world software deployment!
+# 📅 Day 15 of my journey – HTML5 Semantic Structure
+✅ Final Checklist – Day 15
 ---
-
+## 📘 Course
+**HTML5 and CSS3 – Part 1: Creating a Web Page**  
+Platform: Alura  
+🎯 Focus: HTML structure, semantic tags, lists, links, and clean markup
+---
+## 🔧 What I Did
+- Learned the basic structure of an HTML5 document
+- Practiced using semantic elements such as:
+  - `<header>`, `<main>`, `<section>`, `<article>`, `<footer>`
+- Applied proper indentation and content separation
+- Explored best practices for writing clean HTML
+---
+## 🛠 Exercise
+Created a **personal bio page** (`index.html`) containing:
+- ✅ Name and a short professional introduction
+- ✅ List of technologies or personal interests
+- ✅ Contact links (e.g., GitHub, LinkedIn)
+- ✅ Semantic structure using appropriate HTML tags
+---
 > 🛤️ Follow my journey here and track my progress over time!
