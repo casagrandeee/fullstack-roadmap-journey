@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/day18-react-js/day18-react-js.iml" filepath="$PROJECT_DIR$/day18-react-js/day18-react-js.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fullstack-roadmap.iml" filepath="$PROJECT_DIR$/.idea/fullstack-roadmap.iml" />
     </modules>
   </component>
