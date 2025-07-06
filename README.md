@@ -442,5 +442,31 @@ Created a **personal bio page** (`index.html`) containing:
 - ✅ List of technologies or personal interests
 - ✅ Contact links (e.g., GitHub, LinkedIn)
 - ✅ Semantic structure using appropriate HTML tags
+# 📅 Day 16 & 17 of my journey – Responsive Design and Project Publishing
+✅ Final Checklist – Day 16 & 17
+---
+## 📘 Course
+**HTML and CSS: working with responsiveness and publishing projects**  
+Platform: Alura  
+🎯 Focus: responsive web design using media queries, mobile-first strategies, and project publishing with GitHub Pages and Vercel.
+---
+## 🔧 What I Did
+- Learned key concepts of responsive design:
+  - Mobile-first layout strategies
+  - Use of `@media` queries for different screen sizes
+  - Flexible units like `%`, `vh`, `vw`, `rem`, `em`
+- Improved layout techniques using Flexbox for adaptable components
+- Structured projects for better responsiveness across devices
+- Explored different ways to publish static websites:
+  - ✅ GitHub Pages
+  - ✅ Vercel deployment
+---
+## 🛠 Exercise
+Refactored and finalized my **personal portfolio project** to include:
+- ✅ Mobile-first responsive design
+- ✅ Use of media queries for screen size adaptation
+- ✅ Page sections organized with Flexbox for flexibility
+- ✅ Published the project online with **GitHub Pages**
+- ✅ Verified layout across desktop, tablet, and smartphone views
 ---
 > 🛤️ Follow my journey here and track my progress over time!
