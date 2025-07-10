@@ -21,6 +21,10 @@ const Form = (props) => {
             photo,
             team
         })
+        setName('')
+        setPosition('')
+        setPhoto('')
+        setTeam('')
     }
 
     return (
@@ -29,7 +33,7 @@ const Form = (props) => {
                 <h2>Fill the form to create your team!</h2>
                 <TextForm required={true} label="Name" placeholder="Enter your name" value={name} whenChanged={value => setName(value)} />
                 <TextForm required={true} label="Position" placeholder="Enter your position" value={position} whenChanged={value => setPosition(value)} />
-                <TextForm label="Photo" placeholder="Enter your photo" value={photo} whenChanged={value => setPhoto(value)} />
+                <TextForm label="Photo" placeholder="Photo link" value={photo} whenChanged={value => setPhoto(value)} />
                 <DropdownList required={true} label="Team" itens={props.teams} value={team} whenChanged={value => setTeam(value)} />
                 <Buttom>
                     Create Card

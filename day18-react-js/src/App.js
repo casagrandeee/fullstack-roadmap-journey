@@ -2,116 +2,116 @@ import Banner from "./components/Banner/Banner.js";
 import Form from "./components/Form";
 import {useState} from "react";
 import Teams from "./components/Teams";
+import Footer from "./components/Footer";
 
 function App() {
 
     const teams = [
         {
             name: 'Bayern Munich',
-            primaryColor: '#DC052D',
+            primaryColor: '#FADBD8',
             secondaryColor: '#FFFFFF'
         },
         {
             name: 'Borussia Dortmund',
-            primaryColor: '#FDE100',
-            secondaryColor: '#000000'
+            primaryColor: '#FFF9C4',
+            secondaryColor: '#333333'
         },
         {
             name: 'RB Leipzig',
-            primaryColor: '#F5F5F5',
+            primaryColor: '#E8EAF6',
             secondaryColor: '#D50032'
         },
         {
             name: 'VfL Wolfsburg',
-            primaryColor: '#48A547',
-            secondaryColor: '#F0F0F0'
+            primaryColor: '#D5F5E3',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: 'Eintracht Frankfurt',
-            primaryColor: '#111111',
+            primaryColor: '#B3B3B3',
             secondaryColor: '#FFFFFF'
         },
         {
             name: 'Bayer Leverkusen',
-            primaryColor: '#E32219',
-            secondaryColor: '#222222'
+            primaryColor: '#F5B7B1',
+            secondaryColor: '#333333'
         },
         {
             name: 'Borussia Mönchengladbach',
-            primaryColor: '#F8F8F8',
-            secondaryColor: '#111111'
+            primaryColor: '#E6E6E6',
+            secondaryColor: '#333333'
         },
         {
             name: 'SC Freiburg',
-            primaryColor: '#111111',
-            secondaryColor: '#F5F5F5'
+            primaryColor: '#B3B3B3',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: 'TSG Hoffenheim',
-            primaryColor: '#1C63A9',
-            secondaryColor: '#E6E6E6'
+            primaryColor: '#D6EAF8',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: 'Hertha BSC',
-            primaryColor: '#005CA9',
-            secondaryColor: '#F5F5F5'
+            primaryColor: '#D1E8FF',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: 'VfB Stuttgart',
-            primaryColor: '#F5F5F5',
-            secondaryColor: '#C30613'
+            primaryColor: '#FDEDEC',
+            secondaryColor: '#E30613'
         },
         {
             name: 'FC Schalke 04',
-            primaryColor: '#004D9D',
-            secondaryColor: '#E6E6E6'
+            primaryColor: '#D6EAF8',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: '1. FC Köln',
-            primaryColor: '#F5F5F5',
-            secondaryColor: '#C30613'
+            primaryColor: '#FDEDEC',
+            secondaryColor: '#E30613'
         },
         {
             name: 'Mainz 05',
-            primaryColor: '#C30613',
-            secondaryColor: '#F5F5F5'
+            primaryColor: '#FADBD8',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: 'Union Berlin',
-            primaryColor: '#C30613',
-            secondaryColor: '#F5F5F5'
+            primaryColor: '#FADBD8',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: 'Arminia Bielefeld',
-            secondaryColor: '#F5F5F5',
-            primaryColor: '#111111'
+            primaryColor: '#B3B3B3',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: 'FC Augsburg',
-            primaryColor: '#A6192E',
-            secondaryColor: '#F5F5F5'
+            primaryColor: '#F5B7B1',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: 'VfL Bochum',
-            primaryColor: '#1C63A9',
-            secondaryColor: '#E6E6E6'
+            primaryColor: '#D6EAF8',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: 'Greuther Fürth',
-            primaryColor: '#008B5A',
-            secondaryColor: '#F5F5F5'
+            primaryColor: '#D5F5E3',
+            secondaryColor: '#FFFFFF'
         },
         {
             name: 'Hannover 96',
-            primaryColor: '#007A33',
-            secondaryColor: '#222222'
+            primaryColor: '#D1E8FF',
+            secondaryColor: '#333333'
         }
-    ]
+    ];
 
     const [players, setPlayers] = useState([]);
 
     const newPlayerRegistered = (player) => {
-        console.log(player);
         setPlayers([...players, player]);
     }
 
@@ -119,10 +119,14 @@ function App() {
     <div className="App">
       <Banner />
       <Form  teams={teams.map(team => team.name)} playerRegistered={player => newPlayerRegistered(player)}/>
+      {teams.map(team => <Teams
+          key={team.name}
+          name={team.name}
+          primaryColor={team.primaryColor}
+          secondaryColor={team.secondaryColor}
+          players={players.filter(player => player.team === team.name)} />)}
 
-      {teams.map(team => <Teams key={team.name} name={team.name} primaryColor={team.primaryColor} secondaryColor={team.secondaryColor} players={players}/>)}
-
-
+      <Footer />
     </div>
   );
 }

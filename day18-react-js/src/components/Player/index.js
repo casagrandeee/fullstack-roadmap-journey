@@ -1,14 +1,20 @@
 import './Player.css'
 
-const Player = () => {
+const Player = (props) => {
     return (
         <div className='player'>
             <div className='header'>
-                <img src='' alt='Player Name' />
+                <img
+                    src={props.photo}
+                    alt={props.name}
+                    onError={(e) => {
+                        e.target.src = 'https://via.placeholder.com/100';
+                    }}
+                />
             </div>
             <div className='footer'>
-                <h4>Player Name</h4>
-                <h5>Position</h5>
+                <h4>{props.name}</h4>
+                <h5>{props.position}</h5>
             </div>
         </div>
     )
