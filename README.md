@@ -469,4 +469,28 @@ Refactored and finalized my **personal portfolio project** to include:
 - ✅ Published the project online with **GitHub Pages**
 - ✅ Verified layout across desktop, tablet, and smartphone views
 ---
+# 📅 Day 18 of my journey – React: Developing with JavaScript
+✅ **Final Checklist – Day 18 Complete**
+---
+## 📖 What I studied
+- Took my first steps into **React.js**, understanding the fundamentals of component-based architecture.
+- Learned how to create and render components using **JSX**.
+- Explored the concept of props and how to pass data between components.
+- Practiced the use of **state** and the **useState hook** to handle dynamic behavior.
+- Understood the React component lifecycle at a high level and the declarative programming model.
+---
+## 📚 Course
+- Completed: **React: desenvolvendo com JavaScript** (Alura)
+  - Introduction to React ecosystem
+  - Creating and organizing components
+  - Managing data using props and state
+  - Rendering dynamic content
+  - Building a simple component-based app
+---
+## 🛠️ Exercise
+- Created a simple multi-component React application:
+  - Built reusable components using JSX.
+  - Passed data via props to display personalized content.
+  - Managed interactive state using `useState`.
+    
 > 🛤️ Follow my journey here and track my progress over time!
